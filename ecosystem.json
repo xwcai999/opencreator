@@ -4,30 +4,32 @@
   "maintainer": "xwcai999",
   "projects": [
     {
-      "name": "novel-studio-skill",
-      "repository": "https://github.com/xwcai999/novel-studio-skill",
+      "name": "OpenCreator Novel",
+      "repository": "https://github.com/xwcai999/opencreator-novel",
       "kind": "codex-plugin",
       "status": "released",
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
     {
       "name": "opencreator-music",
       "repository": "https://github.com/xwcai999/opencreator-music",
       "kind": "codex-plugin",
-      "status": "preparing"
+      "status": "released",
+      "version": "0.1.0"
     },
     {
       "name": "opencreator-dashboard",
       "repository": "https://github.com/xwcai999/opencreator-dashboard",
       "kind": "web-app",
-      "status": "preparing"
+      "status": "released",
+      "version": "0.1.0"
     },
     {
       "name": "opencreator-family-video",
       "repository": "https://github.com/xwcai999/opencreator-family-video",
       "kind": "codex-plugin",
-      "status": "preparing"
+      "status": "released",
+      "version": "0.1.0"
     }
   ]
 }
-

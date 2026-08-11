@@ -4,7 +4,7 @@ OpenCreator uses a federated repository model:
 
 ```text
 opencreator (principles and index)
-├── novel-studio-skill       fiction workflow
+├── opencreator-novel        OpenCreator Novel fiction workflow
 ├── opencreator-music        lyric workflow plugin
 ├── opencreator-dashboard    read-only visualization
 └── opencreator-family-video video workflow plugin
@@ -18,4 +18,3 @@ Repositories exchange documented artifacts instead of importing each other's pri
 - **Adapter**: connects to a named external service and documents authentication and terms.
 - **Example**: synthetic or explicitly licensed data only.
 - **Private deployment**: credentials, works, browser profiles, session logs, and production queues; never part of a release.
-

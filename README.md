@@ -8,10 +8,10 @@ OpenCreator is a personal open-source ecosystem for reproducible, inspectable co
 
 | Project | Purpose | Status |
 | --- | --- | --- |
-| [novel-studio-skill](https://github.com/xwcai999/novel-studio-skill) | Plan, draft, revise, review, and package Chinese fiction | Released (`v0.1.0`) |
-| `opencreator-music` | Create original structured lyric packages as a Codex plugin | Preparing `v0.1.0` |
-| `opencreator-dashboard` | Explore content-pipeline runs with sanitized mock data | Preparing `v0.1.0` |
-| `opencreator-family-video` | Orchestrate and verify short bilingual family-learning videos | Preparing `v0.1.0` |
+| [OpenCreator Novel](https://github.com/xwcai999/opencreator-novel) | Plan, draft, revise, review, and package Chinese fiction | Released (`v0.2.0`) |
+| [OpenCreator Music](https://github.com/xwcai999/opencreator-music) | Create original structured lyric packages as a Codex plugin | Released (`v0.1.0`) |
+| [OpenCreator Dashboard](https://github.com/xwcai999/opencreator-dashboard) | Explore content-pipeline runs with sanitized mock data | Released (`v0.1.0`) |
+| [OpenCreator Family Video](https://github.com/xwcai999/opencreator-family-video) | Orchestrate and verify short bilingual family-learning videos | Released (`v0.1.0`) |
 
 The repositories remain independently installable and versioned. This repository defines shared principles and points to their source; it does not copy their implementation.
 
@@ -40,4 +40,3 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing changes. Report vulnera
 ## License
 
 The files in this repository are licensed under Apache-2.0. Linked projects have their own license and third-party notices.
-
