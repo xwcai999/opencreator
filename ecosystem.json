@@ -15,21 +15,21 @@
       "repository": "https://github.com/xwcai999/opencreator-music",
       "kind": "codex-plugin",
       "status": "released",
-      "version": "0.1.0"
+      "version": "0.1.1"
     },
     {
       "name": "opencreator-dashboard",
       "repository": "https://github.com/xwcai999/opencreator-dashboard",
       "kind": "web-app",
       "status": "released",
-      "version": "0.1.0"
+      "version": "0.1.1"
     },
     {
       "name": "opencreator-family-video",
       "repository": "https://github.com/xwcai999/opencreator-family-video",
       "kind": "codex-plugin",
       "status": "released",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }

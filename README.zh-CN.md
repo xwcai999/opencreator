@@ -9,9 +9,9 @@ OpenCreator 是一个面向可复现、可审计内容工作流的个人开源�
 | 项目 | 用途 | 状态 |
 | --- | --- | --- |
 | [OpenCreator Novel](https://github.com/xwcai999/opencreator-novel) | 中文小说策划、创作、修订、审查与打包 | 已发布（`v0.2.0`） |
-| [OpenCreator Music](https://github.com/xwcai999/opencreator-music) | 以 Codex 插件生成原创结构化歌词包 | 已发布（`v0.1.0`） |
-| [OpenCreator Dashboard](https://github.com/xwcai999/opencreator-dashboard) | 使用脱敏 Mock 数据查看内容流水线运行 | 已发布（`v0.1.0`） |
-| [OpenCreator Family Video](https://github.com/xwcai999/opencreator-family-video) | 编排并验收家庭情景双语短视频 | 已发布（`v0.1.0`） |
+| [OpenCreator Music](https://github.com/xwcai999/opencreator-music) | 以 Codex 插件生成原创结构化歌词包 | 已发布（`v0.1.1`） |
+| [OpenCreator Dashboard](https://github.com/xwcai999/opencreator-dashboard) | 使用脱敏 Mock 数据查看内容流水线运行 | 已发布（`v0.1.1`） |
+| [OpenCreator Family Video](https://github.com/xwcai999/opencreator-family-video) | 编排并验收家庭情景双语短视频 | 已发布（`v0.1.1`） |
 
 各仓库保持独立安装和独立版本。本仓库只定义共享原则和项目索引，不复制各项目实现。
 
