@@ -4,7 +4,7 @@ OpenCreator uses a federated repository model:
 
 ```text
 opencreator (principles and index)
-├── opencreator-novel        OpenCreator Novel fiction workflow
+├── opencreator-novel        fiction workflow + optional Wawa submission adapter
 ├── opencreator-music        lyric workflow plugin
 ├── opencreator-dashboard    read-only visualization
 └── opencreator-family-video video workflow plugin

@@ -8,7 +8,7 @@ OpenCreator is a personal open-source ecosystem for reproducible, inspectable co
 
 | Project | Purpose | Status |
 | --- | --- | --- |
-| [OpenCreator Novel](https://github.com/xwcai999/opencreator-novel) | Plan, draft, revise, review, and package Chinese fiction | Released (`v0.2.0`) |
+| [OpenCreator Novel](https://github.com/xwcai999/opencreator-novel) | Plan, draft, revise, review, package fiction, and run an optional Wawa submission pre-check | Released (`v0.3.0`) |
 | [OpenCreator Music](https://github.com/xwcai999/opencreator-music) | Create original structured lyric packages as a Codex plugin | Released (`v0.1.1`) |
 | [OpenCreator Dashboard](https://github.com/xwcai999/opencreator-dashboard) | Explore content-pipeline runs with sanitized mock data | Released (`v0.1.1`) |
 | [OpenCreator Family Video](https://github.com/xwcai999/opencreator-family-video) | Orchestrate and verify short bilingual family-learning videos | Released (`v0.1.1`) |
