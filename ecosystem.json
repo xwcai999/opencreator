@@ -18,11 +18,18 @@
       "version": "0.1.1"
     },
     {
+      "name": "OpenCreator Publishers",
+      "repository": "https://github.com/xwcai999/opencreator-publishers",
+      "kind": "publisher-suite",
+      "status": "released",
+      "version": "0.1.0"
+    },
+    {
       "name": "opencreator-dashboard",
       "repository": "https://github.com/xwcai999/opencreator-dashboard",
       "kind": "web-app",
       "status": "released",
-      "version": "0.1.1"
+      "version": "0.2.0"
     },
     {
       "name": "opencreator-family-video",
