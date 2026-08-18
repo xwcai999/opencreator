@@ -8,10 +8,10 @@ OpenCreator 是一个面向可复现、可审计内容工作流的个人开源�
 
 | 项目 | 用途 | 状态 |
 | --- | --- | --- |
-| [OpenCreator Novel](https://github.com/xwcai999/opencreator-novel) | 中文小说策划、创作、修订、审查、打包及可选蛙蛙投稿预检 | 已发布（`v0.3.0`） |
+| [OpenCreator Novel](https://github.com/xwcai999/opencreator-novel) | 中文小说策划、创作、修订、审查、打包，以及可独立使用的蛙蛙离线投稿/统计适配 | 已发布（`v0.4.0`） |
 | [OpenCreator Music](https://github.com/xwcai999/opencreator-music) | 以 Codex 插件生成原创结构化歌词包 | 已发布（`v0.1.1`） |
 | [OpenCreator Publishers](https://github.com/xwcai999/opencreator-publishers) | 统一编排番茄、汽水音乐、网易云音乐和腾讯音乐的发布生命周期与平台适配器 | 已发布（`v0.1.0`） |
-| [OpenCreator Dashboard](https://github.com/xwcai999/opencreator-dashboard) | 使用脱敏快照和 Mock 数据查看创作与发布流水线运行 | 已发布（`v0.2.0`） |
+| [OpenCreator Dashboard](https://github.com/xwcai999/opencreator-dashboard) | 使用脱敏快照和 Mock 数据查看创作、发布及蛙蛙聚合统计 | 已发布（`v0.3.0`） |
 | [OpenCreator Family Video](https://github.com/xwcai999/opencreator-family-video) | 编排并验收家庭情景双语短视频 | 已发布（`v0.1.1`） |
 
 各仓库保持独立安装和独立版本。Music 负责创作成品，Publishers 负责四个平台适配器和发布状态机，Dashboard 保持只读可视化。本仓库只定义共享原则和项目索引，不复制各项目实现。
@@ -28,7 +28,7 @@ OpenCreator 是一个面向可复现、可审计内容工作流的个人开源�
 6. 如实说明模型、媒体、隐私和平台限制；
 7. 同步维护英文和简体中文文档。
 
-发布边界必须明确：Music 不接收平台凭据；Publishers 将登录状态、浏览器 Profile 和不可逆提交保留在本地；Dashboard 只消费脱敏证据或合成 Fixture，不直接驱动适配器。
+发布与统计边界必须明确：Music 不接收平台凭据；Publishers 将登录状态、浏览器 Profile 和不可逆提交保留在本地；OpenCreator Novel 的 `$wawa-source` 只接受用户提供的本地快照；Dashboard 只消费脱敏聚合、证据或合成 Fixture，不直接驱动适配器。
 
 详见 [ECOSYSTEM.md](ECOSYSTEM.md)、[GOVERNANCE.md](GOVERNANCE.md) 和机器可读的 [ecosystem.json](ecosystem.json)。
 

@@ -8,7 +8,7 @@
       "repository": "https://github.com/xwcai999/opencreator-novel",
       "kind": "codex-plugin",
       "status": "released",
-      "version": "0.3.0"
+      "version": "0.4.0"
     },
     {
       "name": "opencreator-music",
@@ -29,7 +29,7 @@
       "repository": "https://github.com/xwcai999/opencreator-dashboard",
       "kind": "web-app",
       "status": "released",
-      "version": "0.2.0"
+      "version": "0.3.0"
     },
     {
       "name": "opencreator-family-video",
