@@ -4,14 +4,14 @@ OpenCreator uses a federated repository model:
 
 ```text
 opencreator (principles and index)
-├── opencreator-novel        fiction workflow + optional Wawa submission adapter
+├── opencreator-novel        fiction workflow + independent offline Wawa adapters
 ├── opencreator-music        lyric workflow plugin
 ├── opencreator-publishers   four-platform publishing adapters and shared lifecycle
-├── opencreator-dashboard    read-only visualization
+├── opencreator-dashboard    read-only creation/publishing/Wawa visualization
 └── opencreator-family-video video workflow plugin
 ```
 
-Repositories exchange documented artifacts instead of importing each other's private state. `opencreator-music` owns creation workflows and structured media packages; it does not own platform accounts, login sessions, or browser automation. `opencreator-publishers` owns the shared publishing lifecycle and platform-specific adapters for 番茄、汽水音乐、网易云音乐 and 腾讯音乐. It consumes documented packages, keeps credentials and irreversible submission local, and exposes sanitized status/evidence snapshots. `opencreator-dashboard` consumes those snapshots or bundled fixtures for read-only visualization; it never drives adapters or stores credentials. This keeps creation, publishing and visualization on independent release lifecycles while allowing the four platforms to share one publisher core.
+Repositories exchange documented artifacts instead of importing each other's private state. `opencreator-music` owns creation workflows and structured media packages; it does not own platform accounts, login sessions, or browser automation. `opencreator-publishers` owns the shared publishing lifecycle and platform-specific adapters for 番茄、汽水音乐、网易云音乐 and 腾讯音乐. It consumes documented packages, keeps credentials and irreversible submission local, and exposes sanitized status/evidence snapshots. `opencreator-novel` owns the offline `$wawa-source` contract, validation, redaction, and aggregation; it does not bundle an authenticated collector. `opencreator-dashboard` consumes those sanitized aggregates/snapshots or bundled fixtures for read-only visualization; it never drives adapters or stores credentials. This keeps creation, publishing, analytics, and visualization on independent release lifecycles.
 
 The publisher repository is released as `v0.1.0`. It contains offline contracts, synthetic adapters, and manual-confirmation gates; no production account or private queue is part of the public repository.
 

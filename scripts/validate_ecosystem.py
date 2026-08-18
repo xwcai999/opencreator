@@ -10,8 +10,9 @@ names = [item["name"] for item in data["projects"]]
 assert len(names) == len(set(names))
 assert "OpenCreator Novel" in names
 required_projects = {
+    "OpenCreator Novel": {"version": "0.4.0", "status": "released"},
     "opencreator-music": {"version": "0.1.1", "status": "released"},
-    "opencreator-dashboard": {"version": "0.2.0", "status": "released"},
+    "opencreator-dashboard": {"version": "0.3.0", "status": "released"},
     "OpenCreator Publishers": {
         "repository": "https://github.com/xwcai999/opencreator-publishers",
         "kind": "publisher-suite",
